@@ -2,5 +2,5 @@ project: code-terror/memc-rs
 target: fuzz_binary_decoder
 
 cmds:
-  - cmd: ./memc-rs/memcrs/fuzz/target/x86_64-unknown-linux-gnu/release/fuzz_binary_decoder
+  - cmd: ./fuzz_binary_decoder
 	libfuzzer: true

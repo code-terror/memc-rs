@@ -20,4 +20,4 @@ WORKDIR /
 # Package Stage
 FROM ubuntu:20.04
 
-COPY --from=builder /memc-rs /memc-rs
+COPY --from=builder /memc-rs/memcrs/fuzz/target/x86_64-unknown-linux-gnu/release/* /
